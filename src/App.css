@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Amatic+SC&family=Share+Tech+Mono&display=swap');
+.parent{
+background-image: url(https://th.bing.com/th/id/R.d14fa4523be8b1a401aa32a25e21c28d?rik=femweWaGmjg79g&riu=http%3a%2f%2fwallpapercave.com%2fwp%2foIAkNXs.jpg&ehk=ojRl1%2bUCy65zVom089tfXD6r6JY4CRfi6ED6IcDCh4U%3d&risl=&pid=ImgRaw&r=0);
+width: 100%;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.main {
+    width: 40%;
+    height: 480px;
+    background-color: lightgrey;
+    border-radius: 5px;
+    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.5);
+}
+.Heading {
+height: 100px;
+display: flex;
+background-color: black;
+color: white;
+font-family: 'Amatic SC', cursive;
+font-size: 80px;
+justify-content: center;
+align-items: center;
+}
+
+.Timer {
+    font-family: 'Share Tech Mono', monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    padding: 35px 0px;
+}
+
+.hours, .minutes, .seconds, .milliseconds {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 6px;
+}
+
+.Action {
+    display: flex;
+    font-family: 'ABeeZee', sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+.Action button {
+    width: 75px;
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    border: transparent solid;
+    outline: none;
+    color: white;
+    background-color: black;
+    margin: 2px;
+    transition: all .7s;
+}
+
+.Action button:hover {
+    box-shadow: 2px 3px 3px rgba(27,26,26,0.5);
+    cursor: pointer;
+}
+
+#start {
+    height: 70px;
+    border-radius: 40%;
+}
+
+#stop, #reset {
+    width: 100px;
+    padding: 10px 0px;
+    border-radius: 8px;
+}
+
+@media (max-width: 992px) {
+    .main {
+        width: 60%;
+    }
+}
+
+@media(max-width: 762px) {
+    .main {
+        width: 70%;
+    }
+}
+
+@media(max-width: 576px) {
+    .main {
+        width: 90%
+    }
+}
